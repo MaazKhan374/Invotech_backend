@@ -10,8 +10,9 @@ const data = {
   "age": 25,
 }
 
+// This fetch data using json
 app.get('/data', function(req, res){
-  res.json(data)
+  res.json(data) 
 })
 
 app.get('/instagram', function(req, res){
